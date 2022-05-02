@@ -19,6 +19,7 @@ public class Member {
     public String getUserID() {
         return userID;
     }
+    private String email;
     private String userName;
     private String phone;
     private String password;

@@ -7,6 +7,7 @@ import lombok.ToString;
 @ToString
 public class MemberInput {
     private String userID;
+    private String email;
     private String userName;
     private String password;
     private String phone;
